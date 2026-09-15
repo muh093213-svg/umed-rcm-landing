@@ -1,0 +1,8 @@
+# Cloudflare Pages redirects. Format: SOURCE  DESTINATION  [CODE]
+# Short links you can use in emails, ads or QR codes:
+/audit       /#audit-section    302
+/book        /#audit-section    302
+/video       /#audit-section    302
+
+# If you later add a www -> apex redirect, do it with a Cloudflare Bulk Redirect
+# or a Redirect Rule instead of this file.
